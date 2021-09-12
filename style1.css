@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+   
+  body{
+      font-family: 'Cinzel', serif ;
+      color:black;
+      background:linear-gradient(
+          rgba(116, 114, 114, 0.65),rgba(148, 146, 146, 0.65),rgba(73, 72, 72, 0.38),rgba(0,0,0,0)
+      )
+       ,url("jonghalee.jpg")no-repeat;
+       background-size:cover;
+
+  }
+
+
+  .box{
+    width: 210px;
+    float: right;
+    /* border: 1px solid black; */
+}
+
+  .box ul li{ 
+      font-size: 10px;
+      font-weight: 900;
+      width:65px;
+      float:left;
+      margin:10px auto;
+      text-align:center
+
+  }
+  .box ul li a{
+      text-decoration: none;
+      color: black;
+  }
+  .box ul li:hover{
+      background-color: white;}
+  .box ul li a:hover{
+      
+      background-color: rgb(95, 93, 93);}  
+
+    .wd{
+        width: 140px;
+        height: 900px;
+        background-color: black;
+        opacity: 0.9;
+        padding: 30px;
+    }    
+    .wd h1{ font-family: 'Libre Barcode 39 Text';
+               
+              color: blanchedalmond;}
+
+    .wd h2{text-align: center;
+        font-size: small;
+        color: rgb(231, 227, 227);
+            text-transform: uppercase;
+            font-weight: 100px;
+
+    }
+    .wd h4{
+        text-align: justify;
+        color: darkgray;
+        font-weight: normal;
+        
+    }  
+
+
+  @media (min-width: 1200px)
+      
+  {
+
+    body{
+        font-family: 'Cinzel', serif ;
+        color:black;
+        background:linear-gradient(
+            rgba(212, 210, 210, 0.95),rgba(66, 66, 66, 0.95),rgba(10, 10, 10, 0.38),rgba(8, 8, 8, 0)
+        )
+         ,url("foodd.jpg")no-repeat;
+         background-size: cover;
+
+  
+    }
+
+  .box{
+      width: 900px;
+      float: right;
+     /* border: 1px solid black; */
+  }
+
+    .box ul li{ 
+        font-size:large;
+        font-weight: bold;
+        width:180px;
+        float:left;
+        margin:30px auto;
+        text-align:center
+
+    }
+    .box ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .box ul li:hover{
+        background-color: white;}
+    .box ul li a:hover{
+        background-color: rgb(49, 47, 49);}    
+
+    .wd{
+        width: 300px;
+        height: 539px;
+        background-color: black;
+        opacity: 0.9;
+        padding: 55px;
+    }    
+    .wd h1{ font-family: 'Libre Barcode 39 Text';
+              color: blanchedalmond;}
+
+    .wd h2{text-align: center;
+        font-size: large;
+        color: rgb(231, 227, 227);
+            text-transform: uppercase;
+            font-weight: 100px;
+
+    }
+    .wd h4{
+        text-align: justify;
+        color: darkgray;
+        font-weight: normal;
+
+    }
+  }
